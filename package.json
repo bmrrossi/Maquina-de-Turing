@@ -1,9 +1,9 @@
 {
   "version": "0.0.0",
   "private": true,
-  "name": "angular-phonecat",
-  "description": "A tutorial application for AngularJS",
-  "repository": "https://github.com/angular/angular-phonecat",
+  "name": "maquina-de-turing",
+  "description": "Projeto para aula de compiladores",
+  "repository": "https://github.com/bmrrossi/Maquina-de-Turing",
   "license": "MIT",
   "devDependencies": {
     "karma": "^0.12.16",
