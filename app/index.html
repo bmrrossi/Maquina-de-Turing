@@ -3,14 +3,29 @@
 <head>
   <meta charset="utf-8">
   <title>Maquina de Turing</title>
-  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
   <link rel="stylesheet" href="css/app.css">
-  <script src="bower_components/angular/angular.js"></script>
+  <link rel="icon" type="image/png" href="img/favicon.ico" />
 </head>
 <body>
 	<header>
  		<h1>Máquina de Turing</h1>
  	</header>
+
+ 	<section id="machine">
+ 		<div id="line">
+ 		- FITA -
+ 		</div>
+
+ 		<hr />
+
+ 		<input type="text" autofocus placeholder="Entrada" name="input" id="input" />
+ 		<button type="button" class="run">Rodar</button>
+ 		<button type="button" id="play"><img src="img/play.png" alt="Play" title="Clique aqui para iniciar"/></button>
+ 		<button type="button" id="pause"><img src="img/pause.png" alt="Pause" title="Clique aqui para pausar"/></button>
+ 		<button type="button" id="stop"><img src="img/stop.png" alt="Stop" title="Clique aqui para parar"/></button>
+ 		<button type="button" id="next"><img src="img/next.png" alt="Next" title="Clique aqui para avançar"/></button>
+ 		<input type="range" min="0" max="10" />
+ 	</section>
 
  	<aside id="table">
  		<table>
@@ -18,17 +33,49 @@
  				<th>#</th>
  				<th>i</th>
  				<th></th>
- 				<th>a</th>
+ 				<th>ad</th>
  				<th></th>
  				<th>f</th>
+ 			</tr>
+
+ 			<tr>
+ 				<td>q1</td>
+ 				<td></td>
+ 				<td></td>
+ 				<td></td>
+ 				<td></td>
+ 				<td></td>
+ 			</tr>
+
+ 			<tr>
+ 				<td>q2</td>
+ 				<td></td>
+ 				<td></td>
+ 				<td></td>
+ 				<td></td>
+ 				<td></td>
+ 			</tr>
+
+ 			<tr>
+ 				<td>q3</td>
+ 				<td></td>
+ 				<td></td>
+ 				<td></td>
+ 				<td></td>
+ 				<td></td>
+ 			</tr>
+
+ 			<tr>
+ 				<td>q4</td>
+ 				<td></td>
+ 				<td></td>
+ 				<td></td>
+ 				<td></td>
+ 				<td></td>
  			</tr>
  		</table>
  	</aside>
  	<div class="clear"></div>
-
- 	<footer>
- 		<span id="author">Bruno Michel Rossi - GitHub</span>
- 	</footer>
 
 </body>
 </html>
