@@ -60,7 +60,7 @@ header {
 }
 
 #line {
-	padding: 30px;
+	padding: 45px 30px 45px 30px;
 }
 
 hr {
@@ -89,7 +89,7 @@ button {
 	vertical-align: bottom;
 }
 
-button img{
+button img {
 	width: 17px;
 }
 
