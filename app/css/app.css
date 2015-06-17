@@ -22,7 +22,7 @@ header {
 
 #table {
 	padding: 30px 0 30px 0;
-	width: 35%;
+	width: 45%;
 	float: right;
 	margin-right: 30px;
 }
@@ -56,7 +56,7 @@ header {
 #machine {
 	padding: 30px 0 30px 30px;
 	float: left;
-	width: 60%;
+	width: 50%;
 }
 
 #line {
@@ -66,7 +66,7 @@ header {
 hr {
 	border: 1px dotted #333;
 	margin: 10px 0 10px 0;
-	width: 78%;
+	width: 90%;
 }
 
 #input {
