@@ -1,12 +1,13 @@
 <!doctype html>
-<html lang="en" ng-app="turing">
+<html lang="en">
 <head>
 
   <meta charset="utf-8">
 
   <title>Maquina de Turing</title>
 
-  <script src="js/angular.min.js" type="text/javascript"></script>
+  <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
+  <script src="js/app.js" type="text/javascript"></script>
 
   <link rel="stylesheet" href="css/app.css">
   <link rel="icon" type="image/png" href="img/favicon.ico" />
@@ -18,18 +19,30 @@
 
  	<section id="machine">
  		<div id="line">
- 		- FITA -
+ 			<table id="fita">
+ 				<tr>
+ 					<td id="init">&oplus;</td>
+ 					<td id="0">a</td>
+ 					<td id="1">a</td>
+ 					<td id="2">b</td>
+ 					<td id="3">b</td>
+ 					<td id="end">&beta;</td>
+ 				</tr>
+ 			</table>
  		</div>
 
  		<hr />
 
  		<input type="text" autofocus placeholder="Entrada" name="input" id="input" />
- 		<button type="button" class="run">Rodar</button>
+ 		<button type="button" class="run" id="run">Rodar</button>
  		<button type="button" id="play"><img src="img/play.png" alt="Play" title="Clique aqui para iniciar"/></button>
  		<button type="button" id="pause"><img src="img/pause.png" alt="Pause" title="Clique aqui para pausar"/></button>
  		<button type="button" id="stop"><img src="img/stop.png" alt="Stop" title="Clique aqui para parar"/></button>
  		<button type="button" id="next"><img src="img/next.png" alt="Next" title="Clique aqui para avançar"/></button>
- 		<input type="range" min="0" max="10" />
+ 		<input type="range" name="speed" id="speed" min="0" max="10" />
+ 		<br />
+ 		<span id="attention-message"></span>
+
  	</section>
 
  	<aside id="table">
