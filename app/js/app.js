@@ -14,6 +14,8 @@ for(var i = 0; i < 5; i++) {
 		matriz[i][j] = '-';
 	}
 }
+//aaa
+
 
 var vetor = {};
 
